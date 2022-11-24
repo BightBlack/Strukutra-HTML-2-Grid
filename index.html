@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,65 +9,94 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="outer-grid">
-    <header>
-        <img src="logo.jpeg" alt="logo">
-        <h1>Company name</h1>
-        <button>EN</button>
-        <button>FR</button>
-        <button>DE</button>
-        <button>CN</button>
-        <h2>Description</h2>
-        <p>How it works | Edraw Max | Edraw Mind Map</p>
-    </header>
-    <nav>
-        <ul>
-            <li>Home</li>
-            <li>Products</li>
-            <li>Downoload</li>
-            <li>Buy Now</li>
-            <li>Support</li>
-            <li>About</li>
-        </ul>
-        <div class="search">
-            <input type="text">
-            <button>Search</button>
-        </div>
-    </nav>
-</div>
+        <header>
+            <img src="logo.jpeg" alt="logo">
+            <h1>Company name</h1>
+            <h2>Description</h2>
+            <div class="lang-buttons">
+                <button>EN</button>
+                <button>FR</button>
+                <button>DE</button>
+                <button>CN</button></div>
+            <p class="breadcrumb">How it works | Edraw Max | Edraw Mind Map</p>
+        </header>
+        <nav>
+            <ul class="nav">
+                <li>Home</li>
+                <li>Products</li>
+                <li>Downoload</li>
+                <li>Buy Now</li>
+                <li>Support</li>
+                <li>About</li>
+            </ul>
+            <div class="search">
+                <input type="text">
+                <button>Search</button>
+            </div>
+        </nav>
+    </div>
 
-    <main>    
+    <div class="main-wrapper">
         <section class="main-img">
             <img src="koperta.jpg" alt="koperta">
         </section>
-        <section class="main-section-article">
-            <h2>Top story headline</h2>
-            <article>
-                <img src="koperta.jpg" alt="koperta">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur finibus consectetur. Donec cursus, mi ac elementum laoreet, mauris turpis volutpat ex, quis egestas ipsum diam vel lorem. Nullam pulvinar lorem vel neque volutpat scelerisque. Fusce non ipsum sit amet eros imperdiet finibus. In quis porttitor diam, non blandit diam. Proin euismod malesuada enim, id aliquet lorem faucibus pretium. Suspendisse facilisis mauris et viverra lobortis. Nullam non magna luctus, euismod augue et, volutpat libero. Pellentesque orci eros, euismod id massa non, consequat viverra risus. Phasellus scelerisque urna ut sem lobortis, eget porta augue laoreet. Donec nulla urna, tempus nec lobortis sed, ultrices a diam. Suspendisse blandit nisl lorem, in vestibulum felis eleifend sit amet.</p>
-            </article>
-            <button>Download</button>
-            <button>Purchase</button>
-        </section>
-        <section class="main-section-img-with-describe">
-            <h3>A montlhy newsletter...</h3>
-            <img src="koperta.jpg" alt="koperta">
-            <p>Cos tam</p>
-            <img src="koperta.jpg" alt="koperta">
-            <p>Cos tam</p>
-            <img src="koperta.jpg" alt="koperta">
-            <p>Cos tam</p>
-            <img src="koperta.jpg" alt="koperta">
-            <p>Cos tam</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur finibus consectetur. Donec cursus, mi ac elementum laoreet, mauris turpis volutpat ex, quis egestas ipsum diam vel lorem. Nullam pulvinar lorem vel neque volutpat scelerisque. Fusce non ipsum sit amet eros imperdiet finibus. In quis porttitor diam, non blandit diam. Proin euismod malesuada enim, id aliquet lorem faucibus pretium. Suspendisse facilisis mauris et viverra lobortis. Nullam non magna luctus, euismod augue et, volutpat libero. Pellentesque orci eros, euismod id massa non, consequat viverra risus. Phasellus scelerisque urna ut sem lobortis, eget porta augue laoreet. Donec nulla urna, tempus nec lobortis sed, ultrices a diam. Suspendisse blandit nisl lorem, in vestibulum felis eleifend sit amet.</p>
-        </section>
-    </main> 
-    
+        <main>
+            
+            <section class="main-section-article">
+                <h2>Top story headline</h2>
+                <article class="article">
+                    <img src="koperta.jpg" alt="koperta">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur finibus consectetur.
+                        Donec cursus, mi ac elementum laoreet, mauris turpis volutpat ex, quis egestas ipsum diam vel
+                        lorem. Nullam pulvinar lorem vel neque volutpat scelerisque. Fusce non ipsum sit amet eros
+                        imperdiet finibus. In quis porttitor diam, non blandit diam. Proin euismod malesuada enim, id
+                        aliquet lorem faucibus pretium. Suspendisse facilisis mauris et viverra lobortis. Nullam non
+                        magna luctus, euismod augue et, volutpat libero. Pellentesque orci eros, euismod id massa non,
+                        consequat viverra risus. Phasellus scelerisque urna ut sem lobortis, eget porta augue laoreet.
+                        Donec nulla urna, tempus nec lobortis sed, ultrices a diam. Suspendisse blandit nisl lorem, in
+                        vestibulum felis eleifend sit amet.</p>
+                        <div class="btns-wrapper">
+                            <button>Download</button>
+                        <button>Purchase</button>
+                        </div>
+                </article>
+            </section>
+            <section class="main-section-newsletter">
+                <h3>A montlhy newsletter...</h3>
+                <div class="newsletter-wrapper">
+                    <div class="news-wrapper">
+                        <img src="koperta.jpg" alt="koperta">
+                    <p>Cos tam</p>
+                    <img src="koperta.jpg" alt="koperta">
+                    <p>Cos tam</p>
+                    <img src="koperta.jpg" alt="koperta">
+                    <p>Cos tam</p>
+                    <img src="koperta.jpg" alt="koperta">
+                    <p>Cos tam</p>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur finibus consectetur.
+                        Donec cursus, mi ac elementum laoreet, mauris turpis volutpat ex, quis egestas ipsum diam vel lorem.
+                        Nullam pulvinar lorem vel neque volutpat scelerisque. Fusce non ipsum sit amet eros imperdiet
+                        finibus. In quis porttitor diam, non blandit diam. Proin euismod malesuada enim, id aliquet lorem
+                        faucibus pretium. Suspendisse facilisis mauris et viverra lobortis. Nullam non magna luctus, euismod
+                        augue et, volutpat libero. Pellentesque orci eros, euismod id massa non, consequat viverra risus.
+                        Phasellus scelerisque urna ut sem lobortis, eget porta augue laoreet. Donec nulla urna, tempus nec
+                        lobortis sed, ultrices a diam. Suspendisse blandit nisl lorem, in vestibulum felis eleifend sit
+                        amet.</p>
+                </div>
+            </section>
+        </main>
+
         <aside>
             <section class="aside-section-video">
                 <h2>Social</h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/a4GeE2jebS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/a4GeE2jebS0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
                 <button>Share & Links</button>
             </section>
             <section class="aside-section-navigate">
@@ -81,9 +111,10 @@
                 </ul>
             </section>
         </aside>
-        <hr>
+    </div>
+    
     <footer>
-        <ul>
+        <ul class="nav">
             <li><a href="#">Home</a></li>
             <li><a href="#">Products</a></li>
             <li><a href="#">Privacy</a></li>
@@ -94,4 +125,5 @@
         <p>Copyright</p>
     </footer>
 </body>
+
 </html>
